@@ -7,7 +7,7 @@
 		<label id="Message1" pos="-2 41.4" z-index="1" size="146 7.27" text="1) ..." halign="center" valign="center" style="TextTitle2"/>
 		<quad id="eImg" pos="0 1.21" halign="center" valign="center" z-index="4" size="106 54.3" image=""/>
 		<label id="Close" pos="-30 -48.1" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text="Close" size="30.3 4.45"/>
-		<label id="Close" pos="30.7 -48.1" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="30.3 4.45" url="https://discord.gg/6yzDSq8fEa" textcolor="A600FFFF"/>
+		<label id="PuzzleInfo" pos="30.7 -48.1" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="30.3 4.45" url="https://discord.gg/6yzDSq8fEa" textcolor="A600FFFF"/>
 	</frame>
 	<script>
 		<!--
