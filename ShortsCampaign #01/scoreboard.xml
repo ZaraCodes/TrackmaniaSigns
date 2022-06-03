@@ -14,4 +14,22 @@
 		<label id="Close" pos="0 -48.1" z-index="3" halign="center"
 		style="TextButtonMedium" scriptevents="1" text="Close" size="30.3 4.45"/>
 	</frame>
+	<script>
+		<!--
+	declare Boolean loop = True;
+	while(loop) {	
+		foreach (Event in PendingEvents) {
+			if (Event.Type == CMlScriptEvent::Type::MouseClick) {
+				// Event Close is triggered by user
+				if (Event.ControlId=="Close") {
+					declare CMlFrame Window = (Page.GetFirstChild("Window") as CMlFrame);
+					Window.Visible = False;
+					loop = False;
+				}
+			}
+		}
+		yield;
+	}
+		-->
+	</script>
 </manialink>
