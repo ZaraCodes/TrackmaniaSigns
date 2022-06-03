@@ -5,7 +5,7 @@
 		opacity="0.7" style="ManiaplanetSystem" styleselected="1" substyle="BgDialog"/>
 		<quad pos="-76 63.4" z-index="2" size="148 11.3" bgcolor="9C2A47FF"
 		opacity="0.7" style="ManiaplanetSystem" styleselected="1" substyle="BgDialog"/>
-		<label id="Title" pos="-2 58" z-index="3" size="147 9.89" text="Hello World"
+		<label id="Title" pos="-2 58" z-index="3" size="147 9.89" text="HALL OF PUZZLE SOLVERS"
 		halign="center" valign="center" style="TextTitle1"/>
 		<label id="Message1" pos="-2.67 38.6" z-index="1" size="146 26.6"
 		text="Message1" halign="center" valign="center" style="TextTitle2"/>
