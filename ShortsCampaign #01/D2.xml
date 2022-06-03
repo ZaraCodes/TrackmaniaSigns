@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<manialink version="3">
+	<frame id="Window" hidden="0">
+		<quad pos="0 0" z-index="0" size="58.8 48.2" bgcolor="9C2A47FF" opacity="0.7" style="ManiaplanetSystem" styleselected="1" substyle="BgDialog" halign="center" valign="center"/>
+		<quad pos="-29.3 24.1" z-index="2" size="58.6 10.6" bgcolor="9C2A47FF" opacity="0.7" style="ManiaplanetSystem" styleselected="1" substyle="BgDialog"/>
+		<label id="Title" pos=".5 18.8" z-index="3" size="10.7 9.89" text="D" halign="center" valign="center" style="TextTitle1" translate="0"/>
+		<label id="Message1" pos="-3.33 -1.87" z-index="1" size="27.7 7.27" text="________" halign="center" valign="center" style="TextTitle2" rot="90"/>
+		<label id="Message1" pos="8.7 -1.87" z-index="1" size="27.7 7.27" text="________" halign="center" valign="center" style="TextTitle2" rot="90"/>
+		<label id="Message1" pos="0.33 -4.33" z-index="1" size="14.7 7.27" text="6" halign="center" valign="center" style="TextTitle2"/>
+		<label id="Message1" pos="0.33 3.67" z-index="1" size="14.7 7.27" text="4" halign="center" valign="center" style="TextTitle2"/>
+		<label id="Close" pos="-14.8 -18.5" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text="Close" size="20 4.45"/>
+		<label id="PuzzleInfo" pos="13.8 -18.5" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="28.8 4.45" url="https://discord.gg/6yzDSq8fEa" textcolor="A600FFFF"/>
+	</frame>
+	<script>
+		<!--
+	declare Boolean loop = True;
+	while(loop) {	
+		foreach (Event in PendingEvents) {
+			if (Event.Type == CMlScriptEvent::Type::MouseClick) {
+				// Event Close is triggered by user
+				if (Event.ControlId=="Close") {
+					declare CMlFrame Window = (Page.GetFirstChild("Window") as CMlFrame);
+					Window.Visible = False;
+					loop = False;
+				}
+			}
+		}
+		yield;
+	}
+		-->
+	</script>
+</manialink>
