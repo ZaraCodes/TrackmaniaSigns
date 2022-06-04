@@ -8,7 +8,7 @@
 		<label id="Message1" pos="3.17 -2.74" z-index="1" size="27.7 7.27" text="________" halign="center" valign="center" style="TextTitle2"/>
 		<label id="Message1" pos="3 0" z-index="1" size="14.7 7.27" text="2    2" halign="center" valign="center" style="TextTitle2"/>
 		<label id="Close" pos="2.17 -17.5" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text="Close" size="30.3 4.45"/>
-		<label id="PuzzleInfo" pos="1.7 21.3" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="30.3 4.45" url="https://discord.gg/6yzDSq8fEa" textcolor="A600FFFF"/>
+		<label id="PuzzleInfo" pos="1.7 21.3" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="30.3 4.45" url="https://trackmania.exchange/mappack/view/1635" textcolor="A600FFFF"/>
 	</frame>
 	<script>
 		<!--

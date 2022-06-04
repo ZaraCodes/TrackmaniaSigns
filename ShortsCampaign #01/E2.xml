@@ -12,7 +12,7 @@
 		<label id="Message1" pos="6.33 -4.33" z-index="1" size="14.7 7.27" text="2" halign="center" valign="center" style="TextTitle2"/>
 		<label id="Message1" pos="6.33 3.67" z-index="1" size="14.7 7.27" text="8" halign="center" valign="center" style="TextTitle2"/>
 		<label id="Close" pos="-14.8 -18.5" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text="Close" size="20 4.45"/>
-		<label id="PuzzleInfo" pos="13.8 -18.5" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="28.8 4.45" url="https://discord.gg/6yzDSq8fEa" textcolor="A600FFFF"/>
+		<label id="PuzzleInfo" pos="13.8 -18.5" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="28.8 4.45" url="https://trackmania.exchange/mappack/view/1635" textcolor="A600FFFF"/>
 	</frame>
 	<script>
 		<!--
