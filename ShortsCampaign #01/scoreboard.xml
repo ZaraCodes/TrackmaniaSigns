@@ -7,6 +7,7 @@
 		<label id="Message1" pos="-2 41.4" z-index="1" size="146 7.27" text="1) $s$eacleabdd" halign="center" valign="center" style="TextTitle2"/>
 		<label id="Message1" pos="-2 36.4" z-index="1" size="146 7.27" text="2) $s$55fBandonTM" halign="center" valign="center" style="TextTitle2"/>
 		<label id="Message1" pos="-2 31.4" z-index="1" size="146 7.27" text="3) $s$4f4Glocom" halign="center" valign="center" style="TextTitle2"/>
+		<label id="Message1" pos="-2 26.4" z-index="1" size="146 7.27" text="4) $s$0afGod_Uperman" halign="center" valign="center" style="TextTitle2"/>
 		<quad id="eImg" pos="0 1.21" halign="center" valign="center" z-index="4" size="106 54.3" image=""/>
 		<label id="Close" pos="-30 -48.1" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text="Close" size="30.3 4.45"/>
 		<label id="PuzzleInfo" pos="30.7 -48.1" z-index="3" halign="center" style="TextButtonMedium" scriptevents="1" text=" puzzle info" size="30.3 4.45" url="https://trackmania.exchange/mappack/view/1635" textcolor="A600FFFF"/>
