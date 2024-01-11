@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<manialink version="3">
+    <video pos="-350 0" size="27 35.1" play="1" data="http://maniacdn.net/kracher99/ManialinkAssets/strawberry_collect.webm" looping="0"/>
+    <frame id="Window">
+        <quad pos="0 0" z-index="0" size="58.8 48.2" bgcolor="9C2A47FF" opacity="0.7" style="ManiaplanetSystem" styleselected="1" substyle="BgDialog" halign="center" valign="center"/>
+        <label pos="-22 13" z-index="0" size="43 11" text="Press ESC to load the assets" style="TextTitle2Blink" translate="0" autonewline="1"/>
+        <quad pos="-27 24" z-index="0" size="10 10" bgcolor="FFF" style="ManiaPlanetMainMenu" substyle="IconQuit" scriptevents="1" id="QuitButton"/>
+        <quad pos="-10 -1" z-index="0" size="20 20" bgcolor="FFF" opacity="0.7" image="https://media.discordapp.net/attachments/853390432528629770/1195081215468908605/1372-checkmark.png?ex=65b2b11d&is=65a03c1d&hm=3cdde44b69cb83e83e632fbdf3741871583d03465af615021bbe9e31f4c1914a&=&format=webp&quality=lossless&width=353&height=353"/>
+    </frame>
+    <script>
+        <!--
+            declare Boolean loop = True;
+            while(loop) {    
+                foreach (Event in PendingEvents) {
+                    if (Event.Type == CMlScriptEvent::Type::MouseClick) {
+                        // Event Close is triggered by user
+                        if (Event.ControlId=="QuitButton") {
+                            declare CMlFrame Window = (Page.GetFirstChild("Window") as CMlFrame);
+                            Window.Visible = False;
+                            loop = False;
+                        }
+                    }
+                }
+                yield;
+            }
+        -->
+    </script>
+</manialink>
